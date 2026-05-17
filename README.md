@@ -52,3 +52,7 @@ npm test
 npm run lint
 ```
 ## DB Services
+Environment configuration parameters and database connectivity stub layers.
+
+## API Services
+REST routing endpoints architecture layout registry.
