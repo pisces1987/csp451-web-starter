@@ -22,3 +22,10 @@ form.addEventListener("submit", (e) => {
 
   message.textContent = "Login submitted (stub). Implement authentication in your feature branch.";
 });
+
+// ==========================================
+// API SERVICES: AUTHENTICATION ROADMAP
+// ==========================================
+// 1. Enforce institutional validation handling (@myseneca.ca)
+// 2. Implement local token session tracking storage mapping
+// 3. Bind form submission listeners to process fetch JSON dispatches
