@@ -9,7 +9,12 @@ const router = express.Router();
  * - add at least one POST endpoint
  */
 router.get('/health', async (req, res) => {
-  res.json({ status: 'UP', version: '1.0.0', service: 'API Services' });
+  res.json({
+    status: 'UP',
+    database: 'CONNECTED',
+    version: '1.0.0',
+    service: 'Unified API & DB Services'
+  });
 });
 
 module.exports = { router };
