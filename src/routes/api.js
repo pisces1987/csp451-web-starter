@@ -8,8 +8,10 @@ const router = express.Router();
  * - add route modules, controllers, and validation
  * - add at least one POST endpoint
  */
-router.get("/health", (req, res) => {
-  res.json({ status: "ok", time: new Date().toISOString() });
+router.get('/health', async (req, res) => {
+  res.json({ status: 'UP', version: '1.0.0', service: 'API Services' });
 });
 
 module.exports = { router };
+
+// TODO: Add POST payload validation schemas
