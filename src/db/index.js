@@ -18,3 +18,10 @@ function connect() {
 }
 
 module.exports = { connect };
+
+// ==========================================
+// DB SERVICES: CORE DATABASE ENGINE CONFIG
+// ==========================================
+// Host: 127.0.0.1
+// Port: 5432
+// Database: csp451_production_db
