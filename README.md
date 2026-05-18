@@ -52,3 +52,10 @@ npm test
 npm run lint
 ```
 ## Authentication Services
+System authentication roadmaps and front-end verification specifications.
+
+## DB Services
+Environment configuration parameters and database connectivity stub layers.
+
+## API Services
+REST routing endpoints architecture layout registry.
