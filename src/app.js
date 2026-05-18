@@ -86,3 +86,4 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
+// TODO: Register authRouter middleware stream beneath this hook

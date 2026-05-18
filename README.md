@@ -51,6 +51,9 @@ To intentionally create a merge conflict, edit the same lines in one of:
 npm test
 npm run lint
 ```
+## Authentication Services
+System authentication roadmaps and front-end verification specifications.
+
 ## DB Services
 Environment configuration parameters and database connectivity stub layers.
 
